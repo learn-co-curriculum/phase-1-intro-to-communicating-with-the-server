@@ -60,3 +60,5 @@ communication with the server, which links together what we've learned about how
 to manipulate the DOM and how to work with events. With the AJAX technique,
 we'll learn how to send and recieve data quickly so that we keep our users'
 experience a positive one.
+
+[three-pillars-example-working]: https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-02.gif
