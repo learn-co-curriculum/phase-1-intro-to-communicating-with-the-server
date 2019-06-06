@@ -54,7 +54,7 @@ want the page to offer. There are a few different ways to do this technically,
 and next we'll take a look at one of the most efficient ways: `fetch()`.
 
 The data that comes back from the server is not sent in HTML. While (once) sent
-back in XML, it's not most often sent back in a format known as JSON ("Jay-Sawn").
+back in XML, it's now most-often sent back in a format known as JSON ("Jay-Sawn").
 JavaScript Object Notation (JSON) is a `String` that JavaScript knows how to
 turn into an `Object`. So, in this module, we'll also need to talk about
 JavaScript `Object`s.
