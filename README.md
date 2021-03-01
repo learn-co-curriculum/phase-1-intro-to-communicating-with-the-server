@@ -53,10 +53,10 @@ technique_.
 
 ## Define AJAX
 
-_AJAX_ is short for "asynchronous JavaScript and XML," and it's the process
-used to make requests to the server and update the DOM without reloading the
-web page. There are a few different ways to implement this; next we'll take a
-look at one of the most efficient ways: `fetch()`.
+_AJAX_ is short for "asynchronous JavaScript and XML," and it's the process used
+to make requests to the server and update the DOM without reloading the web
+page. There are a few different ways to implement this; a bit later in this
+section we'll take a look at one of the most efficient ways: `fetch()`.
 
 The name "asynchronous JavaScript and XML" arises from the fact that, in the
 past, the data sent back to the browser from the server was encoded as XML. Now,
