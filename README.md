@@ -39,11 +39,11 @@ a message back to the browser indicating that the update was made successfully.
 When that success message is received, we then update the DOM to reflect the
 change.
 
-**Important:** Note that the update to the DOM is not _necessarily_ dependent on
-a success message from the server. We could just update the DOM in response to
-the click event itself. However, this is ***not*** the proper procedure. We only
-want to update the DOM once we know that the server successfully _persisted_ the
-change in the backend.
+**NOTE:** The update to the DOM is not _necessarily_ dependent on a success
+message from the server. We could just update the DOM in response to the click
+event itself. However, this is ***not*** the proper procedure. We only want to
+update the DOM once we know that the server successfully _persisted_ the change
+in the backend.
 
 The user doesn't see this entire process happening. Ideally, the process moves
 quickly enough that the user barely even notices that it took place. All they
