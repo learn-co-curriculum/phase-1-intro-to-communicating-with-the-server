@@ -9,21 +9,23 @@
 ## Introduction
 
 We're two-thirds of the way through our exploration of using JavaScript with the
-DOM. We know how to navigate and change the DOM and we know how to make and
-recognize events. Along the way, we picked up necessary bits of JavaScript. Now
-we're getting ready to pull it all together.
+DOM!
+
+We know how to navigate and change the DOM and we know how to make and
+recognize events. Along the way, we picked up necessary bits of JavaScript.
+
+Now,
+we're getting ready to pull it all together!
 
 ## Recall Our Three Pillars of Web Programming
 
-Remember our pillars? By this point, they should feel familiar, but it's
-worthwhile to refer back to them as we move along to keep our journey in
-perspective. So, in that spirit, our three pillars of web programming are:
+Remember our three pillars of web programming? They are:
 
 - Manipulating the DOM
 - Creating events
 - Communicating with the server
 
-The last piece, how we send and retrieve information from the server, is what we
+This last piece - sending and requesting information from the server - is what we
 need to complete our "favoriting" app.
 
 ## Describe the Process of Communicating With the Server
