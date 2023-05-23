@@ -67,7 +67,7 @@ and running the code that makes our website accessible over the internet.
 Servers do a lot! You can think of them as a _home base_ for our websites -
 they're where our websites actually live!
 
-In order for us to build fully functional web apps, our client side code needs
+In order for us to build fully functional web apps, our client-side code needs
 to be able to communicate with a server.
 
 We'll need to be able to ask our server for data, send data to our server so
