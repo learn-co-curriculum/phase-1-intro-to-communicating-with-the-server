@@ -48,8 +48,8 @@ This is where the process of communicating with the server comes in!
 ### Clients
 
 So far, we've been working entirely in the client, writing client-side code. In
-development, a "client" is the visual interface that users engage with to
-interact with an app. As web developers, our client is the browser, but "client"
+development, a _client_ is the visual interface that users engage with to
+interact with an app. As web developers, our client is the browser, but _client_
 can refer to other types of user interfaces as well, like mobile apps.
 
 Clients are responsible for displaying a user interface and handling user
@@ -62,7 +62,7 @@ Servers have a different job - they're remote, independent computers that are
 responsible for storing the files of our website, communicating with databases,
 and running the code that makes our website accessible over the internet.
 
-Servers do a lot! You can think of them as a "home base" for our websites -
+Servers do a lot! You can think of them as a _home base_ for our websites -
 they're where our websites actually live!
 
 In order for us to build fully functional web apps, our client side code needs
@@ -107,9 +107,9 @@ the DOM to reflect the updated information.
 
 In coming lessons, we'll learn more about how the web works and how to use the
 AJAX technique. We'll cover concepts like `fetch`, `JSON`, and `asynchronous
-javascript` in greater detail, so don't worry if you're not quite sure what that
-means yet! By the end of this module, you'll be able to identify each of those
-concepts and implement them in your code.
+javascript` in greater detail, so don't worry if you're don't feel familiar with
+those concepts at this point! By the end of this module, you'll be able to
+identify and describe each of those terms and implement them in your code.
 
 [three-pillars-example-working]:
     https://curriculum-content.s3.amazonaws.com/fewpjs/fewpjs-stitching-together-the-three-pillars/three-pillars-02.gif
