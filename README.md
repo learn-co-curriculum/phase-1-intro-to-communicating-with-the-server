@@ -27,7 +27,7 @@ Remember our three pillars of web programming? They are:
 This last piece - sending and requesting information from the server - is what
 we need to complete our "favoriting" app.
 
-## Describe the Process of Communicating With the Server
+## Communicating With the Server
 
 In our Simple Liker app, “favoriting” is a click event on a heart icon that
 updates the user’s DOM to show a full heart.
@@ -45,6 +45,8 @@ we need a place to store it.
 
 This is where the process of communicating with the server comes in!
 
+### Clients
+
 So far, we've been working entirely in the client, writing client-side code. In
 development, a "client" is the visual interface that users engage with to
 interact with an app. As web developers, our client is the browser, but "client"
@@ -52,7 +54,9 @@ can refer to other types of user interfaces as well, like mobile apps.
 
 Clients are responsible for displaying a user interface and handling user
 interaction. That's the job of HTML, CSS, and JavaScript - to structure and
-design the web page and make it interactive and dynamic.
+design a webpage and make it interactive and dynamic.
+
+### Servers
 
 Servers have a different job - they're remote, independent computers that are
 responsible for storing the files of our website, communicating with databases,
@@ -83,8 +87,8 @@ Fortunately, JavaScript makes it easy for us using the _AJAX_ technique.
 _AJAX_ is short for "asynchronous JavaScript and XML". It's the process used to
 make requests to the server and update the DOM without reloading the web page.
 
-There are a few different ways to implement this; a bit later in this section
-we'll take a look at one of the most efficient ways: `fetch()`.
+There are a few different ways to implement this. We'll take a look at one of
+the most efficient ways: `fetch()`.
 
 The name "asynchronous JavaScript and XML" arises from the fact that, in the
 past, the data sent back to the browser from the server was encoded as XML.
@@ -102,7 +106,7 @@ able to listen for an event, persist the change to the backend, and manipulate
 the DOM to reflect the updated information.
 
 In coming lessons, we'll learn more about how the web works and how to use the
-AJAX technique. We'll cover concepts like `fetch`, `json`, and `asynchronous
+AJAX technique. We'll cover concepts like `fetch`, `JSON`, and `asynchronous
 javascript` in greater detail, so don't worry if you're not quite sure what that
 means yet! By the end of this module, you'll be able to identify each of those
 concepts and implement them in your code.
