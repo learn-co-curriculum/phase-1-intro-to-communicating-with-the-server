@@ -3,7 +3,7 @@
 ## Learning Goals
 
 - Recall our Three Pillars of Web Programming
-- Describe the process of communicating with the server
+- Define a client and server
 - Define AJAX
 
 ## Introduction
