@@ -39,7 +39,9 @@ user sees on our webpage. But, if we refresh the page, that information goes
 away! Our liker app isn't working the way we want it to just yet.
 
 When a user "likes" a post, they're giving us a piece of data - "I, user X, like
-this post!" We want that data to _persist_ in our application. When something
+this post!"
+
+We want that data to _persist_ in our application. When something
 _persists_, it lasts between page refreshes. In order for our data to persist,
 we need a place to store it.
 
@@ -54,7 +56,7 @@ can refer to other types of user interfaces as well, like mobile apps.
 
 Clients are responsible for displaying a user interface and handling user
 interaction. That's the job of HTML, CSS, and JavaScript - to structure and
-design a webpage and make it interactive and dynamic.
+style a webpage and make it interactive and dynamic.
 
 ### Servers
 
