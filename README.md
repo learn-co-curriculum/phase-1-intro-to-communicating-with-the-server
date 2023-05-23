@@ -107,7 +107,7 @@ the DOM to reflect the updated information.
 
 In coming lessons, we'll learn more about how the web works and how to use the
 AJAX technique. We'll cover concepts like `fetch`, `JSON`, and `asynchronous
-javascript` in greater detail, so don't worry if you're don't feel familiar with
+javascript` in greater detail, so don't worry if you don't feel familiar with
 those concepts at this point! By the end of this module, you'll be able to
 identify and describe each of those terms and implement them in your code.
 
