@@ -24,7 +24,7 @@ Remember our three pillars of web programming? They are:
 - Creating events
 - Communicating with the server
 
-This last piece - sending and requesting information from the server - is what
+This last piece — sending and requesting information from the server — is what
 we need to complete our "favoriting" app.
 
 ## Communicating With the Server
