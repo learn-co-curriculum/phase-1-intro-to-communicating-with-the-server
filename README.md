@@ -39,9 +39,7 @@ user sees on our webpage. But, if we refresh the page, that information goes
 away! Our liker app isn't working the way we want it to just yet.
 
 When a user "likes" a post, they're giving us a piece of data - "I, user X, like
-this post!"
-
-We want that data to _persist_ in our application. When something
+this post!" We want that data to _persist_ in our application. When something
 _persists_, it lasts between page refreshes. In order for our data to persist,
 we need a place to store it.
 
@@ -65,37 +63,35 @@ responsible for storing the files of our website, communicating with databases,
 and running the code that makes our website accessible over the internet.
 
 Servers do a lot! You can think of them as a _home base_ for our websites -
-they're where our websites actually live!
-
-In order for us to build fully functional web apps, our client-side code needs
-to be able to communicate with a server.
+they're where our websites actually live! In order for us to build fully
+functional web apps, our client-side code needs to be able to communicate with a
+server.
 
 We'll need to be able to ask our server for data, send data to our server so
 that the server can persist that data in a database, update data that we're
 already storing, and remove data that we no longer want to store.
 
-Imagine, for example, that you're designing YouTube. You'll need to be able to
-serve people videos based on a search - requesting data - allow people to post
-new videos - persisting data - update the number of likes associated with a
-video - updating data - and allow people to remove videos that they no longer
-want to keep - deleting data.
+Imagine, for example, that you're designing YouTube. You'll need to be able to:
 
-Whew! That's a lot to do!
+- serve people videos based on a search - requesting data.
+- allow people to post new videos - persisting data.
+- update the number of likes associated with a video - updating data.
+- and allow people to remove videos that they no longer want to keep - deleting
+data.
 
-Fortunately, JavaScript makes it easy for us using the _AJAX_ technique.
+Whew! That's a lot to do! Fortunately, JavaScript makes it easy for us using the
+_AJAX_ technique.
 
 ## Define AJAX
 
 _AJAX_ is short for "asynchronous JavaScript and XML". It's the process used to
 make requests to the server and update the DOM without reloading the web page.
-
 There are a few different ways to implement this. We'll take a look at one of
 the most efficient ways: `fetch()`.
 
 The name "asynchronous JavaScript and XML" arises from the fact that, in the
-past, the data sent back to the browser from the server was encoded as XML.
-
-Now, however, it's most often sent back in a format known as JSON ("Jay-Sawn").
+past, the data sent back to the browser from the server was encoded as XML. Now,
+however, it's most often sent back in a format known as JSON ("Jay-Sawn").
 JavaScript Object Notation (JSON) is a `String` that JavaScript knows how to
 turn into an `Object`. Using JavaScript, we can access the JSON returned by the
 server and use it to update the DOM.
